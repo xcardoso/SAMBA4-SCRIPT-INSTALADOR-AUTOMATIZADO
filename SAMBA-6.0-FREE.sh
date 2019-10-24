@@ -1042,6 +1042,7 @@ DICAS DE USO:
 * ADICIONE OS SCRIPTS NA CRIAÇÃO DO BACKUP: /etc/veeam/scripts/pre.sh (REALIZA O BACKUP DO SAMBA4) E /etc/veeam/scripts/email.sh (ENVIA O E-MAIL)
 
 - COMANDOS UTEIS
+
 * samba-tool ntacl sysvolreset (SOMENTE FUNCIONA COM A RETIRADA DO ITEM full_audit DO /etc/samba/smb.conf) - RESETA AS PERMISSÕES DAS PASTAS SYSVOL E GPOS
 * samba-tool dbcheck --cross-ncs --fix --yes (VERIFICA O BANCO DE DADOS DO SAMBA E REPARA O MESMO)
 * samba-tool dbcheck --reindex (REINDEXA O BANCO DE DADOS)
